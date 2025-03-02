@@ -189,7 +189,7 @@ public class ShopPage extends BasePage {
 	}
 
 	public void clickOnJacketsRadioButton() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 
 		try {
 			// Wait for the pop-up to disappear if it exists (up to 8 seconds)

@@ -65,7 +65,7 @@ public class SlidePage extends BasePage {
 	}
 
 	public void measureSlideDurations() {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+//	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 	    Map<String, Long> slideDurations = new LinkedHashMap<>();
 	    long startTime, endTime;
 
