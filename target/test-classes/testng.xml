@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Test Suite" parallel="tests" thread-count="3">
+    <test name="Shop Navigation">
+        <classes>
+            <class name="runners.shopNavigationRunner"/>   
+        </classes>
+    </test>
+
+    <test name="Count Slides">
+        <classes>
+            <class name="runners.countSlidesRunner"/>  
+        </classes>
+    </test>
+
+    <test name="Footer Links">
+        <classes>
+            <class name="runners.footerLinksRunner"/>  
+        </classes>
+    </test>
+</suite>

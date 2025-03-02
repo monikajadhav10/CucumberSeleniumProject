@@ -1,0 +1,11 @@
+stepDefinitions/SlideCountSteps.class
+runners/footerLinksRunner.class
+stepDefinitions/FooterSteps.class
+stepDefinitions/CommonHomePageSteps.class
+runners/DynamicRunnerGenerator.class
+hooks/AttachReport.class
+hooks/ReportCleaner.class
+stepDefinitions/ShopSteps.class
+hooks/CloseBrowser.class
+runners/countSildesRunner.class
+runners/shopNavigationRunner.class

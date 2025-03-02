@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-02T14:44:44 IST" name="Surefire suite" finished-at="2025-03-02T14:47:16 IST" duration-ms="151770">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.countSildesRunner@8909f18]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.footerLinksRunner@78047b92]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.shopNavigationRunner@19d37183]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-02T14:44:44 IST" name="Surefire test" finished-at="2025-03-02T14:47:16 IST" duration-ms="151770">
+      <class name="runners.shopNavigationRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.shopNavigationRunner@19d37183]" started-at="2025-03-02T14:44:44 IST" name="setUpClass" finished-at="2025-03-02T14:44:44 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1afd44cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.shopNavigationRunner@19d37183]" started-at="2025-03-02T14:44:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-02T14:47:16 IST" duration-ms="151403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify jacket title, price under men section and create report"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigate to men jacket section and extract details from CP1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.shopNavigationRunner@19d37183]" started-at="2025-03-02T14:47:16 IST" name="tearDownClass" finished-at="2025-03-02T14:47:16 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.shopNavigationRunner -->
+      <class name="runners.footerLinksRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.footerLinksRunner@78047b92]" started-at="2025-03-02T14:44:44 IST" name="setUpClass" finished-at="2025-03-02T14:44:44 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1afd44cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.footerLinksRunner@78047b92]" started-at="2025-03-02T14:44:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-02T14:45:52 IST" duration-ms="67562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify number of slides and their duration with expected data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify no duplicate link present in the footer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.footerLinksRunner@78047b92]" started-at="2025-03-02T14:45:52 IST" name="tearDownClass" finished-at="2025-03-02T14:45:52 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.footerLinksRunner -->
+      <class name="runners.countSildesRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.countSildesRunner@8909f18]" started-at="2025-03-02T14:44:44 IST" name="setUpClass" finished-at="2025-03-02T14:44:44 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1afd44cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.countSildesRunner@8909f18]" started-at="2025-03-02T14:44:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-02T14:46:50 IST" duration-ms="126001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify number of slides and their duration with expected data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify number of slides and their duration from DP1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.countSildesRunner@8909f18]" started-at="2025-03-02T14:46:50 IST" name="tearDownClass" finished-at="2025-03-02T14:46:50 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.countSildesRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

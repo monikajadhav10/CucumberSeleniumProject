@@ -1,0 +1,12 @@
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/hooks/AttachReport.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/hooks/CloseBrowser.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/hooks/ReportCleaner.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/runners/DynamicRunnerGenerator.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/runners/TestRunner.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/runners/countSildesRunner.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/runners/footerLinksRunner.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/runners/shopNavigationRunner.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/stepDefinitions/CommonHomePageSteps.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/stepDefinitions/FooterSteps.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/stepDefinitions/ShopSteps.java
+/Users/monika/eclipse-workspace/NewSeleniumProject/src/test/java/stepDefinitions/SlideCountSteps.java

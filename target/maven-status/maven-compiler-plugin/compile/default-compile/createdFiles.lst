@@ -1,0 +1,8 @@
+utils/TeamUrlProvider.class
+pages/ShopPage.class
+locators/ShopLocators.class
+pages/FooterPage.class
+pages/SlidePage.class
+base/BasePage.class
+pages/CommonHomePageNavigation.class
+utils/WebDriverManager.class
