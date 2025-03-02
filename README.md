@@ -38,12 +38,13 @@ The framework is designed to run feature files in parallel using TestNG and Cucu
 **Setup**
 1. Clone the Repository
 git clone https://github.com/<username>/NewSeleniumProject.git
+
 cd NewSeleniumProject
 
-2. Install Dependencies
+3. Install Dependencies
 mvn clean install
 
-3. Make sure you have Java installed.
+4. Make sure you have Java installed.
 
 **Run Tests**
 mvn test-compile exec:java -Dexec.classpathScope=test -Dexec.mainClass="runners.DynamicRunnerGenerator" (As I'm using dynamic test runner generator)
