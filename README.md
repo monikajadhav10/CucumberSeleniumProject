@@ -34,3 +34,20 @@ The framework is designed to run feature files in parallel using TestNG and Cucu
 - TestNG's parallel execution is controlled via testng.xml and Maven parameters.
 - Dynamic Runner Generator creates test runners at runtime.
 - WebDriverManager ensures proper driver lifecycle handling.
+
+**Setup**
+1. Clone the Repository
+git clone https://github.com/<username>/NewSeleniumProject.git
+cd NewSeleniumProject
+
+2. Install Dependencies
+mvn clean install
+
+3. Make sure you have Java installed.
+
+**Run Tests**
+mvn test-compile exec:java -Dexec.classpathScope=test -Dexec.mainClass="runners.DynamicRunnerGenerator" (As I'm using dynamic test runner generator)
+mvn clean test -Dparallel=tests -DthreadCount=3
+
+**Author**
+Monika Jadhav
