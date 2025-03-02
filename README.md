@@ -38,7 +38,7 @@ The framework is designed to run feature files in parallel using TestNG and Cucu
 **Setup**
 1. Clone the Repository
 
-git clone https://github.com/<username>/NewSeleniumProject.git
+git clone https://github.com/</username/>/NewSeleniumProject.git
 
 cd NewSeleniumProject
 
