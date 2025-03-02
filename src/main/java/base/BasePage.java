@@ -11,7 +11,7 @@ public class BasePage {
     protected WebDriverWait wait;
 
     public BasePage() {
-        this.driver = WebDriverManager.getDriver(); // Ensures a single WebDriver instance
+        this.driver = WebDriverManager.getDriver(); 
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(25));
         PageFactory.initElements(driver, this); 
     }
