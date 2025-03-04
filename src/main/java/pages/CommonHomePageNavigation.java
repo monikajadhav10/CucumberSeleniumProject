@@ -22,7 +22,7 @@ public class CommonHomePageNavigation extends BasePage {
     public void userIsOnTeamHomePage(String teamUrl) {
         openUrl(teamUrl); // method is in base page
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+       // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 
         boolean ticketPopupHandled = false;
         boolean declinePopupHandled = false;
