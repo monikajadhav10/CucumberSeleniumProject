@@ -5,30 +5,55 @@ import java.io.File;
 
 public class ReportCleaner {
 
-    @BeforeAll 
+    @BeforeAll
     public static void cleanUpReports() {
-    	System.out.println("Clean old reports before execution...");
+        System.out.println("Cleaning old reports...");
 
-        // Delete Extent Report index.html
+        // Delete all .html and .json files from /target/cucumber-reports
+        deleteFilesByExtension("target/cucumber-reports", ".html");
+        deleteFilesByExtension("target/cucumber-reports", ".json");
+
+        // Delete Extent Report index.html from /target/extent-report
         deleteFile("target/extent-report/index.html");
 
-        // Delete Cucumber Reports
-        deleteFile("test-output/CucumberReport.html");
-        deleteFile("test-output/CucumberReport.json");
-        System.out.println("Old reports deleted.");
+        System.out.println("Cleanup complete.");
     }
-    
- // Delete single file
+
+    // Method to delete a specific file
     private static void deleteFile(String filePath) {
-        File file = new File(filePath);
-        if (file.exists()) {
-            if (file.delete()) {
-                System.out.println("Deleted: " + filePath);
-            } else {
-                System.out.println("not deleted: " + filePath);
+        try {
+            File file = new File(filePath);
+            if (file.exists()) {
+                if (file.delete()) {
+                    System.out.println("Deleted: " + filePath);
+                } else {
+                    System.out.println("Could not delete: " + filePath);
+                }
             }
+        } catch (Exception e) {
+            System.out.println("Error deleting file: " + filePath + " - " + e.getMessage());
+        }
+    }
+
+    // Method to delete all files with a specific extension in a folder
+    private static void deleteFilesByExtension(String folderPath, String extension) {
+        try {
+            File folder = new File(folderPath);
+            if (!folder.exists()) {
+                System.out.println("Folder not found: " + folderPath);
+                return;
+            }
+
+            File[] files = folder.listFiles();
+            if (files != null) {
+                for (File file : files) {
+                    if (file.getName().endsWith(extension)) {
+                        deleteFile(file.getAbsolutePath());
+                    }
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Error accessing folder: " + folderPath + " - " + e.getMessage());
         }
     }
 }
-
-
