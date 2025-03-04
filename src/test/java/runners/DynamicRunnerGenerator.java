@@ -60,7 +60,7 @@ public class DynamicRunnerGenerator {
                 "        plugin = {\n" +
                 "                \"pretty\",\n" +
                 "                \"html:target/cucumber-reports/" + className + ".html\",\n" +
-                "                \"json:target/" + className + ".json\",\n" +
+                "                \"json:target/cucumber-reports/" + className + ".json\",\n" +
                 "                \"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:\"\n" +
                 "        },\n" +
                 "        monochrome = true\n" +
